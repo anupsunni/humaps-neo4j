@@ -1,0 +1,22 @@
+{
+  "name": "humaps",
+  "version": "1.0.0",
+  "description": "Connecting Connections",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "neo4j": "^2.0.0-RC2",
+    "neo4j-driver": "^1.5.1",
+    "path": "^0.12.7",
+    "phone": "^2.0.0-rc.1",
+    "request": "^2.88.2"
+  }
+}
